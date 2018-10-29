@@ -9,7 +9,7 @@ a, h1, h2, h3, p
 	list-style-type:	none;
 }
 
-/* Header Styles */
+/* ===Header Styles=== */
 header
 {
 	height:	7em;
@@ -51,7 +51,7 @@ header > input[type="text"]
 	margin-top:		20%;
 }
 
-/* Footer Styles */
+/* ===Footer Styles=== */
 footer
 {
 	background-color:	LightSlateGrey;
@@ -74,7 +74,7 @@ footer > div *
 	margin-left:	2em;
 }
 
-/* Home/Search Styles */
+/* ===Home/Search Styles=== */
 #home-sidebar
 {
 	width:	250px;
@@ -107,7 +107,7 @@ footer > div *
 	background:	gold;
 }
 
-/* Item View Styles */
+/* ===Item View Styles=== */
 #item-view-center
 {
 	width:	1100px;
@@ -133,7 +133,7 @@ footer > div *
 	width:	40em;
 }
 
-/* Cart Styles */
+/* ===Cart Styles=== */
 #cart-center li
 {
 	margin-bottom:	2em;
@@ -149,7 +149,32 @@ footer > div *
 	margin-left:	2em;
 }
 
-/* Creature List */
+/* ===Login Styles=== */
+#login-form
+{
+	margin:	auto;
+	width:	20%;
+	background-color:	gold;
+}
+
+#login-form form
+{
+	text-align:	center;
+	margin-top:	5em;
+}
+
+#login-form input[type="submit"]
+{
+	margin-top:	1em;
+}
+
+#registration-link
+{
+	text-align: center;
+	margin-top:	1em;
+}
+
+/* ===Creature List=== */
 .creature-list > ul > li
 {
 	margin-bottom:	6em;
