@@ -12,12 +12,12 @@ a, h1, h2, h3, p
 /* Header Styles */
 header
 {
-	height:	5em;
+	height:	7em;
 	overflow:	hidden;
 	background-color:	Gold;
 }
 
-header>input[type="text"]
+header > input[type="text"]
 {
 	width: 36em;
 	
@@ -26,7 +26,7 @@ header>input[type="text"]
 	margin-left: 	5em;
 	margin-right:	5em;
 	
-	overflow:	hidden;
+	overflow:	visible;
 }
 
 .header-button
@@ -55,14 +55,26 @@ header>input[type="text"]
 footer
 {
 	background-color:	LightSlateGrey;
+	height:	13em;
 }
 
-footer > a, #help-info > *
+footer *
 {
 	color:	Black;
 }
 
-/* Home Styles */
+footer > h3
+{
+	height:	4em;
+	margin-left:	1em;
+}
+
+footer > div *
+{
+	margin-left:	2em;
+}
+
+/* Home/Search Styles */
 #home-sidebar
 {
 	width:	250px;
@@ -70,9 +82,10 @@ footer > a, #help-info > *
 	float:	right;
 	
 	background-color:	Gold;
+	border-style:	solid;
+	border-color:	DodgerBlue;
 	
-	margin-right:	2em;
-	margin-left:	4em;
+	margin:	2em 2em 0em 4em;
 }
 
 #home-sidebar > h2
@@ -80,13 +93,60 @@ footer > a, #help-info > *
 	margin-left:	1em;
 }
 
-#home-center
+#home-center, #search-center, #cart-center
 {
 	width:	1000px;
 	
-	background-color:	Gold;
-	
 	margin-right:	20em;
+}
+
+#home-center > h1, #search-center > h1
+{
+	display:	inline-block;
+	border-style:	solid;
+	background:	gold;
+}
+
+/* Item View Styles */
+#item-view-center
+{
+	width:	1100px;
+	
+	margin:	4em 0em 4em 0em;
+}
+
+#item-view-center > input[type="button"]
+{
+	float:	right;
+	height:	3em;
+	width:	10em;
+}
+
+#comments article
+{
+	width:	40em;
+	background-color:	Gold;
+}
+
+#comments textarea
+{
+	width:	40em;
+}
+
+/* Cart Styles */
+#cart-center li
+{
+	margin-bottom:	2em;
+}
+
+#cart-center h2
+{
+	margin-left:	1em;
+}
+
+#cart-center div
+{
+	margin-left:	2em;
 }
 
 /* Creature List */
@@ -95,12 +155,18 @@ footer > a, #help-info > *
 	margin-bottom:	6em;
 }
 
-.creature-list > ul > li > article
+.creature-info
 {
 	height:	12em;
+	
+	background-color:	gold;
+	overflow:	hidden;
+	
+	border-style:	solid;
+	border-color:	DodgerBlue;
 }
 
-.creature-list > ul > li > article > img
+.creature-info > img
 {
 	width:	12em;
 	height: 12em;
@@ -111,7 +177,7 @@ footer > a, #help-info > *
 	margin-right:	1em;
 }
 
-.creature-notes
+.creature-info > p
 {
 	overflow:	hidden;
 }
