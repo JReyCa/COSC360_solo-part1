@@ -1,0 +1,121 @@
+a, h1, h2, h3, p
+{
+	font-family:	Impact, Charcoal, sans-serif;
+	color:			DodgerBlue;
+}
+
+.unbulleted
+{
+	list-style-type:	none;
+}
+
+/* Header Styles */
+header
+{
+	height:	5em;
+	overflow:	hidden;
+	background-color:	Gold;
+}
+
+header>input[type="text"]
+{
+	width: 36em;
+	
+	font-size:	1.3em;
+	
+	margin-left: 	5em;
+	margin-right:	5em;
+	
+	overflow:	hidden;
+}
+
+.header-button
+{
+	font-size:			1.5em;
+	text-decoration:	none;
+	
+	color:				black;
+	background-color:	GhostWhite;
+	
+	float: right;
+	
+	margin-right:	2em;
+}
+
+#header-logo
+{
+	font-size: 			2em;
+	text-decoration:	none;
+	
+	margin-left:	0.5em;
+	margin-top:		20%;
+}
+
+/* Footer Styles */
+footer
+{
+	background-color:	LightSlateGrey;
+}
+
+footer > a, #help-info > *
+{
+	color:	Black;
+}
+
+/* Home Styles */
+#home-sidebar
+{
+	width:	250px;
+	
+	float:	right;
+	
+	background-color:	Gold;
+	
+	margin-right:	2em;
+	margin-left:	4em;
+}
+
+#home-sidebar > h2
+{
+	margin-left:	1em;
+}
+
+#home-center
+{
+	width:	600px;
+	
+	background-color:	Gold;
+	
+	margin-right:	20em;
+}
+
+/* Creature List */
+.creature-list > ul > li
+{
+	margin-bottom:	6em;
+}
+
+.creature-list > ul > li > article
+{
+	height:	12em;
+}
+
+.creature-list > ul > li > article > img
+{
+	width:	12em;
+	height: 12em;
+	
+	clear:	left;
+	float:	left;
+	
+	margin-right:	1em;
+}
+
+.creature-notes
+{
+	overflow:	hidden;
+}
+
+
+
+
