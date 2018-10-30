@@ -4,16 +4,16 @@
 		<title>Registration</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="styles/mythic-style.css">
-		<script src="register-valid.js"></script>
+		<script src="scripts/register-valid.js"></script>
 	</head>
 	<body>
 		<div id="login-form">
-			<form action="home.html">
+			<form action="home.html" method="POST">
 				<p>First Name:</p><input id="first-input" type="text">
 				<p>Last Name:</p><input id="last-input" type="text">
-				<p>Email:</p><input id="email-input" type="text">
+				<p>Email:</p><input id="email-input" type="email">
 				<p>Username:</p><input id="username-input" type="text">
-				<p>Password:</p><input id="password-input" type="text">
+				<p>Password:</p><input id="password-input" type="password">
 				<br>
 				<input type="submit" value="register">
 			</form>
