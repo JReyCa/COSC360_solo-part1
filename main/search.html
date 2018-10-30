@@ -4,6 +4,7 @@
 		<title>Search</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="styles/mythic-style.css">
+		<script src="all.js"></script>
 	</head>
 	<body>
 		<header>
@@ -11,9 +12,10 @@
 				Mythagerie
 			</a>
 			
-			<input type="text" placeholder="Search">
-			<input class="header-button" type="button" value="Login">
-			<input class="header-button" type="button" value="Cart">
+			<form id="search-form" action="search.html"><input type="text" placeholder="Search"></form>
+			<a href="login.html"><input class="header-button" type="button" value="Login"></a>
+			<a href="cart.html"><input class="header-button" type="button" value="Cart"></a>
+			<a href="account.html"><input class="header-button" type="button" value="Account"></a>
 		</header>
 		
 		<div id="search-center" class="creature-list">

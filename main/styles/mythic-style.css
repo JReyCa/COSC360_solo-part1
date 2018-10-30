@@ -17,13 +17,13 @@ header
 	background-color:	Gold;
 }
 
-header > input[type="text"]
+header  input[type="text"]
 {
 	width: 36em;
 	
 	font-size:	1.3em;
 	
-	margin-left: 	5em;
+	margin-left: 	10em;
 	margin-right:	5em;
 	
 	overflow:	visible;
@@ -39,7 +39,7 @@ header > input[type="text"]
 	
 	float: right;
 	
-	margin-right:	2em;
+	margin-right:	.5em;
 }
 
 #header-logo
@@ -149,7 +149,7 @@ footer > div *
 	margin-left:	2em;
 }
 
-/* ===Login Styles=== */
+/* ===Login/Registration Styles=== */
 #login-form
 {
 	margin:	auto;
@@ -172,6 +172,66 @@ footer > div *
 {
 	text-align: center;
 	margin-top:	1em;
+}
+
+/* ===Checkout Styles=== */
+#checkout-center li
+{
+	width:	30em;
+	margin-bottom:	2em;
+	background-color:	gold;
+	border-style:	solid;
+	border-color:	dodgerblue;
+}
+
+#checkout-center h2
+{
+	margin-left:	2em;
+}
+
+#checkout-center div
+{
+	margin-left:	4em;
+}
+
+#checkout-center input[type="button"]
+{
+	margin-top:	1em;
+	margin-left:	4em;
+}
+
+/* ===Account Styles=== */
+#account-sidebar
+{
+	float:	left;
+	width:	15em;
+}
+
+#account-sidebar input[type="button"]
+{
+	width:	10em;
+	height:	2em;
+}
+
+#account-center
+{
+	width:	40em;
+	height:	15em;
+	margin-left:	15em;
+	background-color:	gold;
+	border:	1px solid dodgerblue;
+}
+
+#account-center p
+{
+	display:	inline-block;
+}
+
+#account-content
+{
+	margin-bottom:	3em;
+	margin-top:		3em;
+	height:	20em;
 }
 
 /* ===Creature List=== */
